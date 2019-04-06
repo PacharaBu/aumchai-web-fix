@@ -2,7 +2,7 @@
   "name": "node1",
   "version": "1.0.0",
   "description": "crash course",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
