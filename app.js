@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     // Build file path
     let filePath = path.join(
         __dirname,
-        'main',
+        'public',
         req.url === '/' ? 'index.html' : req.url
     );
 
