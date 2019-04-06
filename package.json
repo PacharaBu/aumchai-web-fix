@@ -2,7 +2,7 @@
   "name": "node1",
   "version": "1.0.0",
   "description": "crash course",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
@@ -10,6 +10,8 @@
   "author": "pacharaphon",
   "license": "ISC",
   "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "package": "^1.0.1",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
